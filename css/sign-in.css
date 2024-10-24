@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(../img/bg-log.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 31px 45px;
+    border-radius: 10px;
+}
+
+.box h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 33px;
+}
+
+form label{
+    margin-bottom: 8px;
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+form input{
+    border: none;
+    font-size: 19px;
+    margin-left: 5px;
+    position: relative;
+    margin-bottom: 5px;
+}
+form input:focus{
+    outline: none;
+}
+
+form .input{
+    position: relative;
+}
+
+form .input::after{
+    content: "";
+    position: absolute;
+    width: 93%;
+    height: 2px;
+    background-color: #00000096;
+}
+
+.login{
+    background: linear-gradient(to right, #22bde2,#7a70ee,#e315fc);
+    color: white;
+    font-family: cursive;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+form a{
+    margin-left: 183px;
+    text-decoration: none;
+    color: #b6b6b6;
+    display: block;
+}
+
+.up p{
+    text-align: center;
+    margin-top: 52px;
+}
+
+.up a{
+    text-align: center;
+    display: block;
+}
+

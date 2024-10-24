@@ -1,0 +1,98 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: cursive;
+}
+
+.navbar-brand{
+    font-size: 26px;
+    font-family: cursive;
+}
+
+.collapse a{
+    font-size: 19px;
+    font-family: cursive;
+}
+
+.dropdown-menu a{
+    font-family: cursive;
+    font-size: 17px;
+}
+
+.carousel-item img{
+    width: 261px;
+    margin: auto;
+    height: 347px;
+    margin-bottom: 15px;
+}
+
+.carousel-inner{
+    background-color: #e8e8ed;
+    height:428px 
+}
+
+.categories .container .row img{
+    width: 271px;
+    border-radius: 50%;
+    border: 1px solid #007bff;
+}
+
+.categories .container .row img:hover{
+    transform: scale(1.2);
+}
+
+.categories .container .row h2{
+    font-family: cursive;
+}
+
+.categories .container .row button{
+    font-family: cursive;
+    padding: 4px 4px;
+    border-radius: 11px;
+    width: 105px;
+    font-size: 18px;
+}
+
+
+.Featured{
+    background-color: #e8e8ed;
+}
+
+.footer .container .row h2{
+    font-size: 25px;
+}
+
+@media only screen and (max-width:768px){
+    .card{
+        margin-left: 5px;
+    }
+    .categories .container .row button{
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width:992px){
+    .card{
+        margin-left:200px;
+    }
+}
+
+@media only screen and (max-width:540px){
+    .card{
+        margin-left: 125px;
+    }
+}
+@media only screen and (max-width:450px){
+    .card{
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width:430px){
+    .categories .container .row button{
+        margin-bottom: 5px;
+    }
+} 
